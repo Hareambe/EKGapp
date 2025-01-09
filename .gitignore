@@ -1,0 +1,53 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+Desktop.ini
+
+
+build/
+*.env
+
+
+# Ignore C/C++ build artifacts
+*.o
+*.obj
+*.dll
+*.exe
+*.so
+*.dylib
+*.out
+*.a
+*.lib
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~*
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore Qt Creator build files
+*.pro.user
+*.qmake.stash
+*.qmake.cache
+build-*/
+
+# Ignore system-specific directories
+/.vagrant/
+/.vscode/
+/*.sqlite
+
+# Ignore HDF5 and binary data (specific to your project)
+*.h5
+*.bin
+
+# Ignore other custom directories/files
+/path/to/directory_to_ignore/
